@@ -121,7 +121,8 @@ class Permit(Base):
 
 
 if __name__ == '__main__':
-	password = urllib.parse.quote_plus("Sofa@2015")
+	password = urllib.parse.quote_plus("")
 	db = f"mysql+mysqlconnector://rs1180w5_gal:{password}@rs1180w5.beget.tech:3306/rs1180w5_gal"
 	engine = create_engine(db, echo=True)
+	# Base.metadata.drop_all(engine)
 	Base.metadata.create_all(engine)
