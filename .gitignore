@@ -1,0 +1,13 @@
+Thumbs.db
+.DS_Store
+/tmp/
+*_old
+*_backup
+Lyudmila
+Platunova_Nataly
+Oksana_Magura
+.idea
+Michel
+Token.py
+__pycache__
+
